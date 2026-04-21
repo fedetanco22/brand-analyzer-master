@@ -1,0 +1,37 @@
+{
+  "name": "brand-analyzer",
+  "version": "1.1.0",
+  "description": "AI skill for analyzing brands and generating comprehensive brand identity profiles (JSON) using Gemini Flash with Google Search grounding",
+  "main": "index.js",
+  "bin": {
+    "brand-analyzer": "./bin/cli.js"
+  },
+  "files": [
+    "SKILL.md",
+    "scripts/",
+    "bin/",
+    "index.js",
+    "README.md"
+  ],
+  "keywords": [
+    "clawdbot",
+    "clawdbot-skill",
+    "agentskills",
+    "claude",
+    "ai",
+    "brand-identity",
+    "brand-analysis",
+    "gemini",
+    "morfeo"
+  ],
+  "author": "Paul de Lavallaz <paul@morfeoacademy.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PauldeLavallaz/brand-analyzer"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {}
+}
